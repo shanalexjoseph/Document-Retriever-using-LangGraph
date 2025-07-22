@@ -4,6 +4,12 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 
 ---
 
+## 🧭 Workflow Overview
+
+The following flowchart describes the agentic LangGraph workflow used in the document processing pipeline:
+
+![LangGraph Flowchart](assets/flowchart.png)
+
 ## 🚀 Features
 
 ✅ OCR extraction from scanned PDFs  
@@ -25,6 +31,45 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 - **Docker** (containerized deployment)
 
 ---
+⚙️ Getting Started (Local)
+◆ Clone the repo: 
+      git clone https://github.com/your-username/Document-Retriever-using-LangGraph.git
+      cd Document-Retriever-using-LangGraph
+◆ Create virtual environment:
+      python -m venv venv
+      source venv/bin/activate  # or venv\Scripts\activate on Windows
+◆ Install dependencies: pip install -r requirements.txt
+◆ Create a .env file with: HF_TOKEN=your_huggingface_token_here
+◆ Run the app: uvicorn main:app --reload
+◆ Access the frontend: Open your browser and go to: http://127.0.0.1:8000/frontend/index.html
+
+🐳 Running with Docker
+◆ Build the Docker image: docker build -t doc-retriever .
+◆ Run the container: docker run -p 8000:8000 doc-retriever
+◆ To access the app: Go to http://localhost:8000/frontend/index.html
+
+📤 API Endpoints
+◆ Endpoint	Method	Description
+◆ /process_doc	POST	Accepts single PDF for processing
+◆ /process_doc_multiple	POST	Accepts multiple PDFs
+
+💡 Sample Output
+{
+  "ocr_text": "...",
+  "national_id": "9876543210",
+  "action": "freeze_funds",
+  "customer_id": "CUST001",
+  "result": "Freeze all funds in the customer account CUST001"
+}
+🔒 Security
+This app uses Hugging Face API securely via .env and dotenv.
+Make sure you do not commit secrets into the repo.
+
+🧑‍💼 Use Case
+◆ Designed for financial institutions or legal firms to automate the processing of judicial documents by:
+◆ Digitally reading scanned orders
+◆ Verifying customer IDs
+◆ Executing bank-level actions like fund freezes
 
 ## 📂 Project Structure
 
