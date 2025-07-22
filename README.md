@@ -30,7 +30,8 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 - **Docker** (containerized deployment)
 
 ---
-⚙️ Getting Started (Local)
+## ⚙️ Getting Started (Local)
+
 ◆ Clone the repo: 
       git clone https://github.com/your-username/Document-Retriever-using-LangGraph.git
       cd Document-Retriever-using-LangGraph
@@ -44,22 +45,23 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 
 ---
 
-🐳 Running with Docker
+## 🐳 Running with Docker
 ◆ Build the Docker image: docker build -t doc-retriever .
 ◆ Run the container: docker run -p 8000:8000 doc-retriever
 ◆ To access the app: Go to http://localhost:8000/frontend/index.html
 
 ---
 
-📤 API Endpoints
+## 📤 API Endpoints
 ◆ Endpoint	Method	Description
 ◆ /process_doc	POST	Accepts single PDF for processing
 ◆ /process_doc_multiple	POST	Accepts multiple PDFs
 
 ---
 
-💡 Sample Output
-JSON: 
+## 💡 Sample Output
+
+✅ JSON: 
 {
   "ocr_text": "...",
   "national_id": "9876543210",
@@ -72,13 +74,13 @@ JSON:
 
 ---
 
-🔒 Security
+## 🔒 Security
 This app uses Hugging Face API securely via .env and dotenv.
 Make sure you do not commit secrets into the repo.
 
 ---
 
-🧑‍💼 Use Case
+## 🧑‍💼 Use Case
 ◆ Designed for financial institutions or legal firms to automate the processing of judicial documents by:
 ◆ Digitally reading scanned orders
 ◆ Verifying customer IDs
