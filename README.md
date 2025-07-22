@@ -6,7 +6,8 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 
 ## 🧭 Workflow Overview
 
-[![LangGraph Flowchart]([https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Flowchart.png?raw=true)](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Flowchart.png?raw=true](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Document%20retriever%20.png?raw=true))
+[![LangGraph Flowchart](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Document%20retriever%20.png?raw=true)](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Document%20retriever%20.png?raw=true)
+
 
 ---
 ## 🚀 Features
