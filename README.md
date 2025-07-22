@@ -8,7 +8,9 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 
 The following flowchart describes the agentic LangGraph workflow used in the document processing pipeline:
 
-![LangGraph Flowchart](assets/flowchart.png)
+## 🧭 Workflow Overview
+
+[![LangGraph Flowchart](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Flowchart.png?raw=true)](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph/blob/main/assets/Flowchart.png?raw=true)
 
 ## 🚀 Features
 
