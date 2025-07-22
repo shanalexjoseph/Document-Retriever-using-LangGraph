@@ -35,13 +35,19 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 ◆ Clone the repo: 
       git clone https://github.com/your-username/Document-Retriever-using-LangGraph.git
       cd Document-Retriever-using-LangGraph
+
 ◆ Create virtual environment:
       python -m venv venv
       source venv/bin/activate  # or venv\Scripts\activate on Windows
+
 ◆ Install dependencies: pip install -r requirements.txt
+
 ◆ Create a .env file with: HF_TOKEN=your_huggingface_token_here
+
 ◆ Run the app: uvicorn main:app --reload
+
 ◆ Access the frontend: Open your browser and go to: http://127.0.0.1:8000/frontend/index.html
+
 
 ---
 
