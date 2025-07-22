@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.env
+.ipynb_checkpoints/
+*.ipynb
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode settings (optional)
+.vscode/
+
+# Docker
+*.pid
+*.sock
+*.db

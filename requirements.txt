@@ -1,0 +1,9 @@
+langgraph
+pymupdf
+sentence-transformers
+pandas
+fastapi
+uvicorn
+python-multipart
+
+
