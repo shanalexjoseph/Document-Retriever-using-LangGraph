@@ -34,7 +34,8 @@ A robust AI-powered system to automate document-driven workflows, built using [L
 ## ⚙️ Getting Started (Local)
 
 ◆ Clone the repo: 
-      git clone https://github.com/your-username/Document-Retriever-using-LangGraph.git
+      git clone [https://github.com/your-username/Document-Retriever-using-LangGraph.git](https://github.com/shanalexjoseph/Document-Retriever-using-LangGraph.git)
+
       cd Document-Retriever-using-LangGraph
 
 ◆ Create virtual environment:
